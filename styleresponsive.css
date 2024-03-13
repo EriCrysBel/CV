@@ -7,20 +7,25 @@
     body{
       display: grid;
       grid-template-areas: 
+      "aside"
       "main"
-      "aside";
+      ;
+      text-align: center;
     }
     main{
       grid-area: main;
       border-top-left-radius : 0%;
       background-color: rgb(255, 255, 255);
-
+      width: 100%;
+      margin-top: 0;
     }
     aside{
       grid-area: aside;
       border-end-end-radius : 0%;
       background-color:rgb(255, 255, 255);
-      margin-left: 3em;
+      margin-left: 2.9em;
+      margin-top: 1em;
+      width: 100%;
     }
     
   .name{
