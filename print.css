@@ -1,0 +1,51 @@
+@media print {
+  .texto {
+    font-size: 15px;
+  }  
+  @page {
+    size: A4;
+  }
+  main{
+    margin-top: 2em;
+    border: none;
+  }
+  aside{
+    margin-top: 2em;
+    border: none;
+  }
+  .name{
+    font-size: 40px;
+    margin-top: 1em;
+  }
+  .foto img{
+    width: 125px;
+  }
+  body{
+    display: grid;
+    grid-template-columns: 0.2fr  1fr;
+  }
+  .izq{
+    display: flex;
+    margin-left: 1em;
+    justify-items: center;
+  }
+  .texto{
+    font-size: 12px;
+  }
+  .subti{
+    font-size: 18px;
+  }
+  #subtitulin{
+    font-size: 9px;
+  }
+  .lenguajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .lenguajes img{
+    margin: 0.3em;
+  }
+  .posi{
+    font-size: 15px;
+  }
+}

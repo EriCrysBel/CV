@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+  
+  
+  .foto img{
+    width: 50%;
+    }
+    body{
+      display: grid;
+      grid-template-areas: 
+      "main"
+      "aside";
+    }
+    main{
+      grid-area: main;
+      border-top-left-radius : 0%;
+      background-color: rgb(255, 255, 255);
+
+    }
+    aside{
+      grid-area: aside;
+      border-end-end-radius : 0%;
+      background-color:rgb(255, 255, 255);
+      margin-left: 3em;
+    }
+    
+  .name{
+    font-size: 40px;
+  }
+  .foto img{
+    width: 150px;
+
+  }
+  .izq{
+    display: inline-grid;
+  grid-template-areas: 
+  "imagen  texto";
+  }
+  .texto{
+    font-size: 12px;
+  }
+  .subti{
+    font-size: 18px;
+  }
+  #subtitulin{
+    font-size: 12px;
+  }
+  .posi{
+    font-size: 15px;
+  }
+
+}

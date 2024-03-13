@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 0.5fr  1fr;
+  background-image: url('./img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main{
+  margin-top: 7em;
+  margin-left: 3em;
+  background-color: #F3EDF8;
+  padding: 1em;
+  text-align: center;
+  border-top-left-radius : 30%;
+  border: #D3B4DE ridge;
+}
+aside{
+  margin-right: 3em;
+  margin-top: 7em;
+  background-color: #fdf8ff;
+  padding: 1em;
+  border-end-end-radius : 30%;
+  border:  #D3B4DE ridge  ;
+}
+.foto img{
+  text-align: center;
+  width: 200px;
+  border-radius: 20%;
+}
+section{
+  margin:1em;
+}
+.datospersonales{
+  text-align: center;
+}
+
+.herramientas{
+  text-align: center;
+}
+#segundocollapse{
+  margin-top: 1em;
+}
+.name{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+}
+.boton2{
+  text-align: center;
+}
+.subti{
+  font-family: "Oleo Script", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+.texto{
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+  .lenguajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+.izq{
+  align-self: center;
+  justify-content: center;
+  text-align: center !important;
+}
